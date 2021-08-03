@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E72725426B966E4000F8C6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E72725326B966E4000F8C6A /* AppDelegate.swift */; };
+		5E72725626B966E4000F8C6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E72725526B966E4000F8C6A /* SceneDelegate.swift */; };
+		5E72725826B966E4000F8C6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E72725726B966E4000F8C6A /* ViewController.swift */; };
+		5E72725B26B966E4000F8C6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E72725926B966E4000F8C6A /* Main.storyboard */; };
+		5E72725D26B966E6000F8C6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E72725C26B966E6000F8C6A /* Assets.xcassets */; };
+		5E72726026B966E6000F8C6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E72725E26B966E6000F8C6A /* LaunchScreen.storyboard */; };
+		5E72726B26B966E7000F8C6A /* Prework_Tenzin_PemaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E72726A26B966E7000F8C6A /* Prework_Tenzin_PemaTests.swift */; };
+		5E72727626B966E7000F8C6A /* Prework_Tenzin_PemaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E72727526B966E7000F8C6A /* Prework_Tenzin_PemaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E72726726B966E7000F8C6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E72724826B966E3000F8C6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E72724F26B966E3000F8C6A;
+			remoteInfo = "Prework Tenzin Pema";
+		};
+		5E72727226B966E7000F8C6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E72724826B966E3000F8C6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E72724F26B966E3000F8C6A;
+			remoteInfo = "Prework Tenzin Pema";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E72725026B966E4000F8C6A /* Prework Tenzin Pema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prework Tenzin Pema.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E72725326B966E4000F8C6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E72725526B966E4000F8C6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5E72725726B966E4000F8C6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E72725A26B966E4000F8C6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E72725C26B966E6000F8C6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E72725F26B966E6000F8C6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E72726126B966E6000F8C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E72726626B966E7000F8C6A /* Prework Tenzin PemaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prework Tenzin PemaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E72726A26B966E7000F8C6A /* Prework_Tenzin_PemaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prework_Tenzin_PemaTests.swift; sourceTree = "<group>"; };
+		5E72726C26B966E7000F8C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E72727126B966E7000F8C6A /* Prework Tenzin PemaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prework Tenzin PemaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E72727526B966E7000F8C6A /* Prework_Tenzin_PemaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prework_Tenzin_PemaUITests.swift; sourceTree = "<group>"; };
+		5E72727726B966E7000F8C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E72724D26B966E3000F8C6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E72726326B966E6000F8C6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E72726E26B966E7000F8C6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E72724726B966E3000F8C6A = {
+			isa = PBXGroup;
+			children = (
+				5E72725226B966E4000F8C6A /* Prework Tenzin Pema */,
+				5E72726926B966E7000F8C6A /* Prework Tenzin PemaTests */,
+				5E72727426B966E7000F8C6A /* Prework Tenzin PemaUITests */,
+				5E72725126B966E4000F8C6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E72725126B966E4000F8C6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E72725026B966E4000F8C6A /* Prework Tenzin Pema.app */,
+				5E72726626B966E7000F8C6A /* Prework Tenzin PemaTests.xctest */,
+				5E72727126B966E7000F8C6A /* Prework Tenzin PemaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E72725226B966E4000F8C6A /* Prework Tenzin Pema */ = {
+			isa = PBXGroup;
+			children = (
+				5E72725326B966E4000F8C6A /* AppDelegate.swift */,
+				5E72725526B966E4000F8C6A /* SceneDelegate.swift */,
+				5E72725726B966E4000F8C6A /* ViewController.swift */,
+				5E72725926B966E4000F8C6A /* Main.storyboard */,
+				5E72725C26B966E6000F8C6A /* Assets.xcassets */,
+				5E72725E26B966E6000F8C6A /* LaunchScreen.storyboard */,
+				5E72726126B966E6000F8C6A /* Info.plist */,
+			);
+			path = "Prework Tenzin Pema";
+			sourceTree = "<group>";
+		};
+		5E72726926B966E7000F8C6A /* Prework Tenzin PemaTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E72726A26B966E7000F8C6A /* Prework_Tenzin_PemaTests.swift */,
+				5E72726C26B966E7000F8C6A /* Info.plist */,
+			);
+			path = "Prework Tenzin PemaTests";
+			sourceTree = "<group>";
+		};
+		5E72727426B966E7000F8C6A /* Prework Tenzin PemaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E72727526B966E7000F8C6A /* Prework_Tenzin_PemaUITests.swift */,
+				5E72727726B966E7000F8C6A /* Info.plist */,
+			);
+			path = "Prework Tenzin PemaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E72724F26B966E3000F8C6A /* Prework Tenzin Pema */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E72727A26B966E7000F8C6A /* Build configuration list for PBXNativeTarget "Prework Tenzin Pema" */;
+			buildPhases = (
+				5E72724C26B966E3000F8C6A /* Sources */,
+				5E72724D26B966E3000F8C6A /* Frameworks */,
+				5E72724E26B966E3000F8C6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prework Tenzin Pema";
+			productName = "Prework Tenzin Pema";
+			productReference = 5E72725026B966E4000F8C6A /* Prework Tenzin Pema.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E72726526B966E6000F8C6A /* Prework Tenzin PemaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E72727D26B966E7000F8C6A /* Build configuration list for PBXNativeTarget "Prework Tenzin PemaTests" */;
+			buildPhases = (
+				5E72726226B966E6000F8C6A /* Sources */,
+				5E72726326B966E6000F8C6A /* Frameworks */,
+				5E72726426B966E6000F8C6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E72726826B966E7000F8C6A /* PBXTargetDependency */,
+			);
+			name = "Prework Tenzin PemaTests";
+			productName = "Prework Tenzin PemaTests";
+			productReference = 5E72726626B966E7000F8C6A /* Prework Tenzin PemaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E72727026B966E7000F8C6A /* Prework Tenzin PemaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E72728026B966E7000F8C6A /* Build configuration list for PBXNativeTarget "Prework Tenzin PemaUITests" */;
+			buildPhases = (
+				5E72726D26B966E7000F8C6A /* Sources */,
+				5E72726E26B966E7000F8C6A /* Frameworks */,
+				5E72726F26B966E7000F8C6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E72727326B966E7000F8C6A /* PBXTargetDependency */,
+			);
+			name = "Prework Tenzin PemaUITests";
+			productName = "Prework Tenzin PemaUITests";
+			productReference = 5E72727126B966E7000F8C6A /* Prework Tenzin PemaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E72724826B966E3000F8C6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					5E72724F26B966E3000F8C6A = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					5E72726526B966E6000F8C6A = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 5E72724F26B966E3000F8C6A;
+					};
+					5E72727026B966E7000F8C6A = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 5E72724F26B966E3000F8C6A;
+					};
+				};
+			};
+			buildConfigurationList = 5E72724B26B966E3000F8C6A /* Build configuration list for PBXProject "Prework Tenzin Pema" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E72724726B966E3000F8C6A;
+			productRefGroup = 5E72725126B966E4000F8C6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E72724F26B966E3000F8C6A /* Prework Tenzin Pema */,
+				5E72726526B966E6000F8C6A /* Prework Tenzin PemaTests */,
+				5E72727026B966E7000F8C6A /* Prework Tenzin PemaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E72724E26B966E3000F8C6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E72726026B966E6000F8C6A /* LaunchScreen.storyboard in Resources */,
+				5E72725D26B966E6000F8C6A /* Assets.xcassets in Resources */,
+				5E72725B26B966E4000F8C6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E72726426B966E6000F8C6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E72726F26B966E7000F8C6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E72724C26B966E3000F8C6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E72725826B966E4000F8C6A /* ViewController.swift in Sources */,
+				5E72725426B966E4000F8C6A /* AppDelegate.swift in Sources */,
+				5E72725626B966E4000F8C6A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E72726226B966E6000F8C6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E72726B26B966E7000F8C6A /* Prework_Tenzin_PemaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E72726D26B966E7000F8C6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E72727626B966E7000F8C6A /* Prework_Tenzin_PemaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E72726826B966E7000F8C6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E72724F26B966E3000F8C6A /* Prework Tenzin Pema */;
+			targetProxy = 5E72726726B966E7000F8C6A /* PBXContainerItemProxy */;
+		};
+		5E72727326B966E7000F8C6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E72724F26B966E3000F8C6A /* Prework Tenzin Pema */;
+			targetProxy = 5E72727226B966E7000F8C6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E72725926B966E4000F8C6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E72725A26B966E4000F8C6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E72725E26B966E6000F8C6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E72725F26B966E6000F8C6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E72727826B966E7000F8C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E72727926B966E7000F8C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E72727B26B966E7000F8C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5G765H9L98;
+				INFOPLIST_FILE = "Prework Tenzin Pema/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tenzinpema.Prework-Tenzin-Pema";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E72727C26B966E7000F8C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5G765H9L98;
+				INFOPLIST_FILE = "Prework Tenzin Pema/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tenzinpema.Prework-Tenzin-Pema";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5E72727E26B966E7000F8C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5G765H9L98;
+				INFOPLIST_FILE = "Prework Tenzin PemaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tenzinpema.Prework-Tenzin-PemaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prework Tenzin Pema.app/Prework Tenzin Pema";
+			};
+			name = Debug;
+		};
+		5E72727F26B966E7000F8C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5G765H9L98;
+				INFOPLIST_FILE = "Prework Tenzin PemaTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tenzinpema.Prework-Tenzin-PemaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prework Tenzin Pema.app/Prework Tenzin Pema";
+			};
+			name = Release;
+		};
+		5E72728126B966E7000F8C6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5G765H9L98;
+				INFOPLIST_FILE = "Prework Tenzin PemaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tenzinpema.Prework-Tenzin-PemaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Prework Tenzin Pema";
+			};
+			name = Debug;
+		};
+		5E72728226B966E7000F8C6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5G765H9L98;
+				INFOPLIST_FILE = "Prework Tenzin PemaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tenzinpema.Prework-Tenzin-PemaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Prework Tenzin Pema";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E72724B26B966E3000F8C6A /* Build configuration list for PBXProject "Prework Tenzin Pema" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E72727826B966E7000F8C6A /* Debug */,
+				5E72727926B966E7000F8C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E72727A26B966E7000F8C6A /* Build configuration list for PBXNativeTarget "Prework Tenzin Pema" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E72727B26B966E7000F8C6A /* Debug */,
+				5E72727C26B966E7000F8C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E72727D26B966E7000F8C6A /* Build configuration list for PBXNativeTarget "Prework Tenzin PemaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E72727E26B966E7000F8C6A /* Debug */,
+				5E72727F26B966E7000F8C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E72728026B966E7000F8C6A /* Build configuration list for PBXNativeTarget "Prework Tenzin PemaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E72728126B966E7000F8C6A /* Debug */,
+				5E72728226B966E7000F8C6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E72724826B966E3000F8C6A /* Project object */;
+}
